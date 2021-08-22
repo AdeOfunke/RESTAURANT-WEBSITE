@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.restaurant{
+    color: white;
+    font-size: 24px;
+    padding: 20px;
+    font-weight: 600;
+    float: left;
+}
+body{
+    font-family: poppins, sans-serif;
+
+}
+.banner{
+    background-image: url(restaurant\ image4.jfif);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.content {
+    color: black;
+    font-size: 15px;
+    padding: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+h1{
+    font-size: 50px;
+    font-weight:700 ;
+
+}
+span{
+    color: rgb(121, 177, 39);
+}
+header.menu{
+    float: right;
+    padding: 20px;
+}
+header ul li{
+    display: inline-block;
+}
+header ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 12px;
+    padding: 20px;
+    margin: 5px;
+}
+header ul li a:hover{
+    color: chocolate;
+    transition: 0.6s;
+}
+.btn .color1{
+    color: white;
+    background-color: green;
+    padding: 10px 30px;
+    margin-left: 10px;
+    font-size: 1em;
+    text-decoration: none;
+    display: inline-block;
+    letter-spacing: 2px;
+    margin-left: 590px;
+}
+.btn .color1:hover{
+    background-color: chocolate;
+    transition: 0.9s;
+}
+section{
+    padding: 100px;
+}
+.row{
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.row .col50{
+    width: 48%;
+    position: relative;
+
+}
+.imgBx img{
+    width: 110%;
+    height: 110%;
+
+}
+.row .col50 .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+
+}
